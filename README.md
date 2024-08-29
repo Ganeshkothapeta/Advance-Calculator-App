@@ -11,17 +11,7 @@ Files
 index.html: The HTML structure of the calculator.
 styles2.css: The CSS file for styling the calculator.
 script1.js: The JavaScript file for implementing the calculator's functionality.
-Setup
-Download or Clone the Repository
 
-bash
-Copy code
-git clone https://github.com/yourusername/advanced-calculator.git
-Navigate to the Project Directory
-
-bash
-Copy code
-cd advanced-calculator
 Open index.html in a Web Browser Simply open the index.html file in your preferred web browser to view and use the calculator.
 
 Usage
