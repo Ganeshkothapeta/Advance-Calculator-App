@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator</title>
+    <!-- Link to external CSS for styling -->
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <!-- Main calculator container -->
+    <div class="calculator">
+        <!-- Display area to show input and results -->
+        <div class="display" id="display"></div>
+
+        <!-- Buttons for calculator operations and input -->
+        <div class="buttons">
+            <!-- Basic operation and control buttons -->
+            <button class="btn" onclick="clearDisplay()">AC</button>
+
+             <!-- Additional advanced operation button -->
+            <button class="btn" onclick="calculatePercentage()">%</button>
+            <button class="btn" onclick="backspace()">←</button>
+            
+            <!--operation button-->
+           <button class="btn" onclick="appendCharacter('/')">/</button>
+            
+           
+
+            <!-- Digit and operation buttons -->
+            <button class="btn" onclick="appendCharacter('7')">7</button>
+            <button class="btn" onclick="appendCharacter('8')">8</button>
+            <button class="btn" onclick="appendCharacter('9')">9</button>
+            <button class="btn" onclick="appendCharacter('*')">*</button>
+            
+
+            <button class="btn" onclick="appendCharacter('4')">4</button>
+            <button class="btn" onclick="appendCharacter('5')">5</button>
+            <button class="btn" onclick="appendCharacter('6')">6</button>
+            <button class="btn" onclick="appendCharacter('-')">-</button>
+
+            
+
+            <button class="btn" onclick="appendCharacter('1')">1</button>
+            <button class="btn" onclick="appendCharacter('2')">2</button>
+            <button class="btn" onclick="appendCharacter('3')">3</button>
+            <button class="btn" onclick="appendCharacter('+')">+</button>
+
+           
+
+            <button class="btn" onclick="appendCharacter('0')">0</button>
+            <button class="btn" onclick="appendCharacter('.')">.</button>
+
+            <!-- Additional advanced operation button -->
+            <button class="btn" onclick="calculateSquareRoot()">√</button>
+
+            <!-- Equal button to calculate result -->
+            <button class="btn" onclick="calculateResult()" rowspan="2">=</button>
+
+            <!-- Memory function buttons -->
+            <button class="btn" onclick="memoryClear()">MC</button>
+            <button class="btn" onclick="memoryRecall()">MR</button>
+            <button class="btn" onclick="memoryAdd()">M+</button>
+            <button class="btn" onclick="memorySubtract()">M-</button>
+        </div>
+    </div>
+    <!-- Link to external JavaScript for functionality -->
+    <script src="script1.js"></script>
+</body>
+</html>
+
+
+
