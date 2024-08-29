@@ -36,4 +36,4 @@ For a simple calculation:
 Click 7, +, 3, = to get 10.
 For a memory function:
 
-Click 5, M+, MC, MR to recall 5.# Basic-Calculator-App
+Click 5, M+, MC, MR to recall 5.
