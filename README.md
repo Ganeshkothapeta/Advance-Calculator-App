@@ -1,6 +1,6 @@
 # Basic Calculator
 Description
-This project is an Advanced Calculator that includes basic arithmetic operations, advanced functions such as percentage calculation, square root, and memory functions. The calculator is built using HTML, CSS, and JavaScript.
+This project is an Basic Calculator that includes basic arithmetic operations, advanced functions such as percentage calculation, square root, and memory functions. The calculator is built using HTML, CSS, and JavaScript.
 
 Features
 Basic Operations: Addition, subtraction, multiplication, and division.
