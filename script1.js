@@ -19,11 +19,6 @@ function appendCharacter(character) {
 }
 
 
-
-
-
-
-
 // Function to remove the last character from the display
 function backspace() {
     display.innerText = display.innerText.slice(0, -1);
